@@ -2,11 +2,17 @@
 	box-sizing: border-box;
 }
 
+@font-face {
+	font-family: MyFont;
+	src:
+		url('Objectivity-Black.woff2') format('woff2');
+}
+
 body {
 	background: #F2F2F2;
-	font-family: 'avenir';
+	font-family: 'objectivity';
 	font-size: 16px;
-	font-weight: 100;
+	font-weight: 200;
 	padding: 0px;
 	margin: 0;
 }
@@ -18,11 +24,15 @@ body {
 	width: 100%;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 30px;
+	margin-bottom: 120px;
 }
 
 h1 {
-	color: rgb(135, 57, 146);
+	font-family: 'objectivity';
+	font-weight: 800;
+	font-size: 48px;
+	font-kerning: inherit;
+	color: rgb(154, 164, 255);
 	margin: 0;
 }
 
@@ -35,7 +45,7 @@ h1 {
 
 h2 {
 	background: #F2F2F2;
-	font-family: 'avenir';
+	font-family: 'objectivity';
 	font-size: 18px;
 	font-weight: 400;
 	padding: 0;
@@ -43,9 +53,9 @@ h2 {
 }
 
 blockquote {
-	font-family: 'libre baskerville';
-	font-size: 28px;
+	font-family: 'objectivity';
+	font-size: 64px;
 	font-weight: 500;
-	font-style: italic;
+	font-optical-sizing: 0px;
 	margin: 0;
 }
