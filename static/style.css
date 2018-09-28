@@ -3,9 +3,17 @@
 }
 
 @font-face {
-	font-family: MyFont;
+	font-family: 'objectivity';
+	font-weight: 400;
 	src:
-		url('Objectivity-Black.woff2') format('woff2');
+		url('fonts/Objectivity-Regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'objectivity';
+	font-weight: 700;
+	src:
+		url('fonts/Objectivity-Black.woff2') format('woff2');
 }
 
 body {
@@ -29,7 +37,7 @@ body {
 
 h1 {
 	font-family: 'objectivity';
-	font-weight: 800;
+	font-weight: 700;
 	font-size: 48px;
 	font-kerning: inherit;
 	color: rgb(154, 164, 255);
