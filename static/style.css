@@ -3,22 +3,23 @@
 }
 
 @font-face {
-	font-family: 'objectivity';
+	font-family: 'silka';
 	font-weight: 400;
 	src:
-		url('fonts/Objectivity-Regular.woff2') format('woff2');
+		url('fonts/silka-regular-webfont.woff2') format('woff2');
 }
 
 @font-face {
-	font-family: 'objectivity';
-	font-weight: 700;
+	font-family: 'silka';
+	font-weight: 400;
 	src:
-		url('fonts/Objectivity-Black.woff2') format('woff2');
+		url('fonts/silka-regular-webfont.woff2') format('woff2');
 }
 
 body {
-	background: #F2F2F2;
-	font-family: 'objectivity';
+	background: #fa86df;
+	background-blend-mode: overlay; 
+	font-family: 'silka';
 	font-size: 16px;
 	font-weight: 200;
 	padding: 0px;
@@ -27,7 +28,7 @@ body {
 
 .header {
 	background: #4deec6;
-	padding: 18px;
+	padding: 60px;
 	display: flex;
 	width: 100%;
 	justify-content: space-between;
@@ -36,16 +37,16 @@ body {
 }
 
 h1 {
-	font-family: 'objectivity';
+	font-family: 'silka';
 	font-weight: 700;
-	font-size: 48px;
+	font-size: 72px;
 	font-kerning: inherit;
-	color: rgb(154, 164, 255);
+	color: #ffffff;
 	margin: 0;
 }
 
 .main {
-	max-width: 600px;
+	max-width: 680px;
 	padding-left: 20px;
 	padding-right: 20px;
 	margin: 0 auto;
@@ -53,7 +54,7 @@ h1 {
 
 h2 {
 	background: #F2F2F2;
-	font-family: 'objectivity';
+	font-family: 'silka';
 	font-size: 18px;
 	font-weight: 400;
 	padding: 0;
@@ -61,7 +62,7 @@ h2 {
 }
 
 blockquote {
-	font-family: 'objectivity';
+	font-family: 'silka';
 	font-size: 64px;
 	font-weight: 500;
 	font-optical-sizing: 0px;
